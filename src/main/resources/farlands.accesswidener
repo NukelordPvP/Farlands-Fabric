@@ -1,2 +1,1 @@
 accessWidener	v1	named
-accessible method net/minecraft/world/gen/chunk/ChunkGeneratorSettings <init> (Lnet/minecraft/world/gen/chunk/StructuresConfig;Lnet/minecraft/world/gen/chunk/GenerationShapeConfig;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;Lnet/minecraft/world/gen/surfacebuilder/MaterialRules$MaterialRule;IZZZZZZ)V
