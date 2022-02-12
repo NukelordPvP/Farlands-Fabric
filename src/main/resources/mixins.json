@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "me.nukelord.farlandsfabric.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinChunkGeneratorSettings",
+    "MixinOctavePerlinNoiseSampler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "FarlandsMod-refmap.json"
+}
