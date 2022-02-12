@@ -1,10 +1,2 @@
-accessWidener	v1	intermediary
-accessible	class	net/minecraft/world/gen/chunk/ChunkGeneratorSettings
-accessible	class	net/minecraft/client/option/GameOptions$Visitor
-accessible	class	net/minecraft/client/gui/screen/Screen
-accessible	class	net/minecraft/client/option/Option
-accessible	class	net/minecraft/world/border/WorldBorder$Area
-accessible	class	net/minecraft/world/border/WorldBorder$StaticArea
-accessible	method  net/minecraft/client/gui/screen/Screen method_37063 (Lnet/minecraft/client/gui/Element;)Lnet/minecraft/client/gui/Element;
-accessible	method	net/minecraft/client/option/Option getGenericLabel (Lnet/minecraft/text/Text;)Lnet/minecraft/text/Text;
-accessible	method	net/minecraft/world/gen/chunk/ChunkGeneratorSettings	<init>	(Lnet/minecraft/world/gen/chunk/StructuresConfig;Lnet/minecraft/world/gen/chunk/GenerationShapeConfig;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;IIIIZZZZZZ)V
+accessWidener	v1	named
+accessible method net/minecraft/world/gen/chunk/ChunkGeneratorSettings <init> (Lnet/minecraft/world/gen/chunk/StructuresConfig;Lnet/minecraft/world/gen/chunk/GenerationShapeConfig;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;Lnet/minecraft/world/gen/surfacebuilder/MaterialRules$MaterialRule;IZZZZZZ)V
