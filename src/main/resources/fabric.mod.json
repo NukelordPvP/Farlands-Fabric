@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "farlands",
-  "version": "1.0.0",
+  "id": "farlandsfabric",
+  "version": "1.0.1",
 
-  "name": "Border Remover",
-  "description": "",
+  "name": "Farlands Fabric",
+  "description": "Adds the farlands to 1.18.1 fabric.",
   "authors": [
-    "PercyDan"
+    "Mahan",
+    "Nukelord420"
   ],
   "contact": {
-    "homepage": "https://github.com/idk",
-    "sources": "https://github.com/no"
+    "homepage": "https://github.com/NukelordPvP",
+    "sources": "https://github.com/NukelordPvP/Farlands-Fabric"
   },
   "environment": "*",
   "entrypoints": {
@@ -23,8 +24,8 @@
   ],
   "accessWidener": "farlands.accesswidener",
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.12.12",
     "fabric": "*",
-    "minecraft": ">=1.15"
+    "minecraft": ">=1.18"
   }
 }
