@@ -1,11 +1,17 @@
 {
   "mappings": {
+    "me/nukelord/farlandsfabric/mixins/MixinWorldBorderProperties": {
+      "<init>(DDDDIIDJD)V": "Lnet/minecraft/class_2784$class_5200;<init>(DDDDIIDJD)V"
+    },
     "me/nukelord/farlandsfabric/mixins/MixinOctavePerlinNoiseSampler": {
       "maintainPrecision": "Lnet/minecraft/class_3537;method_16452(D)D"
     }
   },
   "data": {
     "named:intermediary": {
+      "me/nukelord/farlandsfabric/mixins/MixinWorldBorderProperties": {
+        "<init>(DDDDIIDJD)V": "Lnet/minecraft/class_2784$class_5200;<init>(DDDDIIDJD)V"
+      },
       "me/nukelord/farlandsfabric/mixins/MixinOctavePerlinNoiseSampler": {
         "maintainPrecision": "Lnet/minecraft/class_3537;method_16452(D)D"
       }

@@ -4,7 +4,8 @@
   "package": "me.nukelord.farlandsfabric.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MixinOctavePerlinNoiseSampler"
+    "MixinOctavePerlinNoiseSampler",
+    "MixinNoiseSamplingConfig"
   ],
   "injectors": {
     "defaultRequire": 1
