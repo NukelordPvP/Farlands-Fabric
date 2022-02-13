@@ -9,7 +9,7 @@
   },
   "data": {
     "named:intermediary": {
-      "me/nukelord/farlandsfabric/mixins/MixinWorldBorderProperties": {
+      "me/nukelor/farlandsfabric/mixins/MixinWorldBorderProperties": {
         "<init>(DDDDIIDJD)V": "Lnet/minecraft/class_2784$class_5200;<init>(DDDDIIDJD)V"
       },
       "me/nukelord/farlandsfabric/mixins/MixinOctavePerlinNoiseSampler": {
