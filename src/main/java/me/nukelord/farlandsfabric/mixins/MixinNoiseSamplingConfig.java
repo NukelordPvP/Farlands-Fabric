@@ -11,6 +11,7 @@ import net.minecraft.world.gen.chunk.NoiseSamplingConfig;
 public class MixinNoiseSamplingConfig {
 	@Redirect(method = "<clinit>", at = @At(target = "Lcom/mojang/serialization/Codec;doubleRange(DD)Lcom/mojang/serialization/Codec;", value = "INVOKE"))
 	private static Codec<Double> fixRange(double min, double max) {
+		max = Double.MAX_VALUE;
 		return Codec.doubleRange(min, max);
 
 		// changes datapack xzScale range and other ranges
